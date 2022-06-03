@@ -70,6 +70,11 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    background-image: url('./img/perfil-instagram.jpeg');
+    background-size: cover;
 }
 
 .profile-photo img {
@@ -94,6 +99,11 @@ body {
 
 .link-blue {
     color: #0095f6;
+    cursor: pointer;
+}
+
+.link-blue:hover {
+    border-bottom: 1px solid #0095f6;
 }
 
 .get-the-app {
@@ -108,24 +118,17 @@ body {
 .download {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    gap: 10px;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
 }
 
-.app-download {
+.app-download img{
     height: 3rem;
-    width: 10rem;
-    background-size: cover;
+    width: auto;
 }
 
-.app-download:nth-child(1) {
-    background-image: url('./img/apple-button.png');
-}
-
-.app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
-}
 
 /* media queries */
 
